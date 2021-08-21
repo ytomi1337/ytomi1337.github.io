@@ -1,0 +1,632 @@
+body
+{
+    color: black;
+    font-family: 'Viaoda Libre', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+    background-image: url(dot-grid.png);
+}
+
+.wrapper
+{
+    width: 100%;
+}
+
+.header
+{
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* rzeczy nalezace do logo */
+
+.logo
+{
+    font-family: 'Viaoda Libre', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-bottom: 80px;
+    
+}
+
+#autor
+{
+    font-size: 72px;
+}
+
+#blog
+{
+    color: red;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 180px
+        
+}
+
+.ulub
+{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.lew
+{
+    float: left;
+    font-size: 50px;
+    font-family: 'Viaoda Libre', cursive;
+        
+}
+.lew1
+{
+    float: left;
+    font-size: 20px;
+    font-family: 'Viaoda Libre', cursive;
+        
+}
+
+.koszyk
+{
+    float: right;
+    padding-right: 10px;
+}
+
+.ulubione
+{
+    float: right;
+     padding-right: 10px;
+}
+
+.Promo
+{
+    float: right;
+     padding-right: 10px;
+}
+.Promo:hover
+{
+    border-bottom: 1px solid red;
+    cursor: pointer;
+    color: red;
+}
+.ulubione:hover
+{
+    border-bottom: 1px solid red;
+    cursor: pointer;
+    color: red;
+}
+.koszyk:hover
+{
+    border-bottom: 1px solid red;
+    cursor: pointer;
+    color: red;
+}
+/* rzeczy nalezace do logo */
+/* rzeczy nalezace do paska navigacji */
+.nav
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #000;
+        
+}
+
+.fryzura
+{
+    float: left;
+    padding: 10px;
+}
+.broda
+{
+    float: left;
+    padding: 10px;
+}
+
+.moda
+{
+    float: left;
+    padding: 10px;
+}
+
+.sklep
+{
+    float: left;
+    padding: 10px;
+}
+.menu
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    width: 1000px;
+    font-size: 25px;
+}
+
+.fryzura:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+    color: red;
+}
+.broda:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+    color: red;
+}
+.moda:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+    color: red;
+}
+.sklep:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+    color: red;
+}
+
+.ig1
+{
+    float: right;
+    padding: 10px;
+    
+}
+.ig1:hover
+{
+    color: #3f729b;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
+
+/* rzeczy nalezace do logo */
+
+.container
+{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news1
+{
+    width: 1000px;
+    height: 600px;
+    background-color: #FFC6B6;
+    margin-bottom: 35px;
+}
+
+.rzaba
+{
+    color: #fff;
+    font-size: 34px;
+    padding-top: 160px;
+}
+.rzaba1
+{
+    color: red;
+    font-size: 72px;
+    font-weight: bolder;
+    padding: 0 25px;
+padding-bottom: 80px;
+    
+}
+
+.news2
+{
+    width: 1000px;
+    height: 600px;
+    background-image: url(zdjeca/barber.jpg);
+    margin-bottom: 35px;
+    
+    
+    
+}
+.kolekcja
+{
+    padding-top: 70px;
+    padding-left: 240px;
+    color: white;
+}
+.kolekcja1
+{
+    
+    color: black;
+    background: white;
+    width: 100px;
+    margin-left: 570px;
+    padding: 10px 5px;
+    font-size: 15px;
+    
+    
+}
+.kolekcja1:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+        
+}
+
+.juhu
+{
+    margin-left: 660px;
+    margin-top: 240px;
+    color: white;
+}
+.juhu1
+{
+    margin-left: 200px;
+    margin-top: 255px;
+    color: white;
+}
+
+.rzaba2
+{
+    float: left;
+    padding: 5px 15px;
+    margin-left: 345px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.rzaba3
+{
+    float: left;
+    padding: 5px 15px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.rzaba2:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.rzaba3:hover
+{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.news3
+{
+    width: 1000px;
+    height: 600px;
+    background-image: url(zdjeca/loreal.jpg);
+    margin-bottom: 20px;
+    
+    
+    
+}
+.odzywki
+{
+    color: white;
+    padding-top: 170px;
+    margin-left:  480px;
+}
+
+.fotter
+{
+    width: 100%;
+    background-color: #FFF0CF;
+    padding-bottom: 35px;
+    
+        
+}
+.fotter1
+{
+        margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.pizza
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    margin-right: 20px;
+    
+}
+.pizza1
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    margin-right: 20px;
+    
+}
+.pizza2
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    
+}
+.pizza3
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    background-image: url(dot-grid.png);
+    margin-right: 20px;
+    font-family: Ariel, sans-serif;
+    font-size: 16px;
+    
+}
+.pizza4
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    background-image: url(dot-grid.png);
+    margin-right: 20px;
+    font-family: Ariel, sans-serif;
+    font-size: 16px;
+    
+}
+.pizza5
+{
+    width: 330px;
+    height: 200px;
+    float:  left;
+    background-image: url(dot-grid.png);
+    font-family: Ariel, sans-serif;
+    font-size: 16px;
+    
+}
+
+.media
+{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #FFDADA;
+}
+.prawoo
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Ariel, sans-serif;
+    font-size: 16px;
+}
+
+.pipmek
+{
+    float: left;
+    margin-left: 440px;
+    width: 30px;
+}
+.pipmek:hover
+{
+    border-bottom: 1px solid dodgerblue;
+}
+.pipmek1
+{
+    float: left;
+    width: 30px;
+    margin-left: 10px;
+}
+.pipmek1:hover
+{
+    border-bottom: 1px solid blue;
+}
+.pipmek2
+{
+    float: left;
+    width: 30px;
+    margin-left: 10px;
+}
+.pipmek2:hover
+{
+    border-bottom: 1px solid orangered;
+}
+.pipmek3
+{
+    float: left;
+    width: 30px;
+    margin-left: 10px;
+}
+.pipmek3:hover
+{
+    border-bottom: 1px solid chocolate;
+}
+/*KLUB*/
+.containterklub
+{
+    background-image: url(zdjeca/123.jpg);
+    height: 618px;
+    margin-bottom: 130px;
+}
+
+.kluub
+{
+    color: white;
+    font-size: 35px;
+    font-family: Ariel, sans-serif;
+    
+    padding-top: 60px;
+    margin-right: 465px;
+}
+
+.dolacz12
+{
+    
+    margin-top: 110px;
+}
+
+.pipi:hover
+{
+    border: 1px solid #333 ;
+}
+
+.podklubem
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Ariel, sans-serif;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.foter
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.fottter
+{
+    
+    margin-left: 150px;
+   
+    float: left;
+    margin-top: 150px;
+    border: 1px solid black;
+}
+.jddd
+{
+    
+    float: left;
+    margin-top: 150px;
+    margin-left: 130px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: 900;
+}
+#janek
+{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 50px;
+    background-color: #000;
+    width: 210px;
+    padding: 12px 5px;
+    color: white;
+}
+
+#janek:hover
+{
+    cursor: pointer;
+    background-color: #111;
+    border: 1px solid black;
+        
+}
+#janek1
+{
+    width: 100%;
+    background-color: #FAFFB9;
+    padding: 90px 0px;
+    margin-top: 100px;
+}
+#janek2
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+        
+    
+}
+#wladek
+{
+    width: 100%;
+    
+    padding: 30px 0px;
+    margin-top: 100px;
+}
+#wladek1
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+ 
+    
+}
+#wladek2
+{
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+#wladek3
+{
+    float: left;
+    margin-top: 40px;
+}
+#wladek5
+{
+    float: left;
+    margin-top: 40px;
+    text-align: left;
+}
+#wladek4
+{
+    float: left;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 150px;
+    text-align: left;
+}
+.po
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    
+    
+}
+.po1
+{width: 100%; background-color: #FFBC8E; padding: 10px; margin-bottom: 60px}
+
+
+ /*guzik newsteller */ /*guzik newsteller */ /*guzik newsteller */ /*guzik newsteller */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.overlay { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; z-index: 9999;}
+.overlay:target { visibility: visible; opacity: 1;}
+#popup1 { font-family:poppins;}
+#popup1 .popup {margin: 0px auto; padding: 50px 20px;background: #fff; border-radius: 0px; height: 260px; width:690px; position: relative;    text-align: center;top: 50% !important;   position: fixed !important;-moz-transform: translateY(-50%);    -webkit-transform: translateY(-50%);  -o-transform: translateY(-50%);   -ms-transform: translateY(-50%);    transform: translateY(-50%);right: 0px; left: 0;}
+#popup1 .popup h2 { margin-top: 0; color: #333;}
+#popup1 .popup .close {position: absolute; top: 0px;  right: 0px; transition: all 200ms; font-size: 30px;  font-weight: normal; text-decoration: none;  text-align: center;    background: #333;  border-radius: 0;  cursor: pointer;  float: right;  padding: 0;  color: #fff;  margin-top: 0;  margin-right: 0;  height: 40px;  width: 40px;    line-height: 45px;}
+
+#popup1 .popup .content {max-height: 30%;overflow: auto;}
+#popup1 .newletter-title h2 {   font-size: 24px;  text-transform: uppercase;  color: #000;  font-weight: 700;  letter-spacing: 3px;  margin: 0 0 15px;}
+#popup1 .box-content label {  font-weight: 400;  max-width: 560px;  display: inline-block;  margin-bottom: 5px;  font-size: 14px; line-height: 26px;}
+.newletter-popup {  background: #fff;  top: 50% !important;   position: fixed !important; padding: 0;  text-align: center;  -moz-transform: translateY(-50%);    -webkit-transform: translateY(-50%);  -o-transform: translateY(-50%);   -ms-transform: translateY(-50%);    transform: translateY(-50%);}
+#popup1 #frm_subscribe #subscribe_pemail {    background: #EBEBEB none repeat scroll 0% 0%;    border: medium none;    height: 40px;    width: 65%;    margin: 20px 0;    padding-left: 15px;}
+#popup1 #frm_subscribe a {   cursor: pointer;   border: none;    background: #333;    padding: 3px 25px;    text-transform: uppercase;   font-size: 14px;    color: #fff;
+    font-weight: 600;    line-height: 34px;    display: inline-block;    border-radius: 0;    letter-spacing: 2px;}
+
+ /*guzik newsteller */ /*guzik newsteller */ /*guzik newsteller */ /*guzik newsteller */
