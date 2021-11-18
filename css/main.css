@@ -251,7 +251,7 @@ header .fa-chevron-down:hover {
 }
 
 .prices .cena {
-  color: #e2cdcd;
+  color: black;
   font-size: 20px;
 }
 
@@ -259,6 +259,46 @@ header .fa-chevron-down:hover {
   text-decoration: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  color: #8d9dcf;
+}
+
+.prices a:hover {
+  color: #6f80b4;
+}
+
+.prices .price-card {
+  background-color: #777;
+  padding: 20px 0;
+  -webkit-box-shadow: 8px 8px 24px 0px #42445a;
+          box-shadow: 8px 8px 24px 0px #42445a;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  margin: 20px 10px;
+}
+
+.prices .price-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.prices .btn-outline-warning {
+  color: #82ff0e;
+  border-color: #82ff0e;
+}
+
+.prices .best {
+  border: 1px solid #82ff0e;
+  background-color: #8d9dcf;
+}
+
+.prices .best .cena {
+  color: #82ff0e;
+}
+
+.prices .under-price-text {
+  font-size: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -279,6 +319,12 @@ header .fa-chevron-down:hover {
   }
   header p {
     font-size: 23px;
+  }
+}
+
+@media (max-width: 414px) {
+  .prices .price-card {
+    margin: 15px 25px;
   }
 }
 

@@ -210,18 +210,47 @@ header{
     
     h3{
         text-transform: uppercase;
+        
     }
     .underline-price{
         width: 80%; height: 1px; background-color: rgb(95, 128, 129);
         margin: 0 auto 40px;
     }
     .cena{
-        color: rgb(226, 205, 205);
+        color: rgb(0, 0, 0);
         font-size: 20px;
     }
     a{
         text-decoration: none;
         transition: 0.4s;
+        color: rgb(141, 157, 207);
+    }
+    a:hover{
+        color: rgb(111, 128, 180);
+    }
+    .price-card{
+        background-color: #777;
+        padding: 20px 0;
+        box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        transition: transform 0.5s;
+        margin: 20px 10px;
+    }
+    .price-card:hover{
+        transform: scale(1.1);
+    }
+    .btn-outline-warning{
+        color: rgb(130, 255, 14);
+        border-color: rgb(130, 255, 14);
+    }
+    .best{
+        border: 1px solid rgb(130, 255, 14);
+        background-color: rgb(141, 157, 207);
+        .cena{
+            color: rgb(130, 255, 14);;
+        }
+    }
+    .under-price-text {
+        font-size: 20px;
     }
 
 }
@@ -245,6 +274,13 @@ header{
     header p{
         font-size: 23px;
     }
+}
+@media(max-width:414px){
+ .prices{
+    .price-card{
+        margin: 15px 25px;
+    }
+}
 }
 
 @media(min-width: 992px){
