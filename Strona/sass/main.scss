@@ -1,0 +1,259 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-padding-top: 82px;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+.shadow-bg{
+    background-color: rgba(0,0,0,0.8);
+   
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.underline{
+    width: 60px; height: 4px; background-color: rgb(1, 247, 255);
+    margin: 0 auto 40px;
+
+}
+
+
+
+
+
+nav {
+    z-index: 1;
+    transition: background-color 0.6s;
+    
+    .nav-link{
+        color: #fff;
+        margin-right: 10px;
+        text-transform: uppercase;
+        transition: 0.6s;
+    }
+    
+    .navbar-brand {
+        color: #fff;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .nav-link:hover{
+        color: #bbb;
+        border-bottom: 1px solid #bbb;
+    }
+    .active{
+        color: #999;
+    }
+    button{
+        color: #fff;
+    }
+    .navbar{
+        transition: 1s;
+    }
+    
+    
+}
+
+header{
+    color: #fff;
+
+    h1{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    p{
+        color: #bbb;
+    }
+    .hero-img{
+        position:relative;
+        height: 100vh;
+        background-image: url(../img/van-gea220328d_640.jpg);
+        background-position: center ;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .hero-shadow{
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: -10;
+    }
+    .hero-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 100%;
+       flex-direction: column;
+       z-index: 5;
+    }
+    .fa-chevron-down{
+        position: absolute;
+        font-size: 30px;
+        bottom: 20px;
+        left: 50%;
+        color: #fff;
+        padding: 10px;
+        transform:(translateX(-50%));
+        transition: 0.5s;
+    }
+    
+    .fa-chevron-down:hover{
+        color: #bbb;
+    }
+
+}
+
+.aboutus{
+    
+    i{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .aboutus-card-title{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #999;
+    }
+    .aboutus-card-text{
+        font-size: 14px;
+    }
+    
+ }
+
+.aboutus-hero2{
+    color: #ddd;
+    .hero-img2{
+        position:relative;
+        background-image: url(../img/end-of-summer-2700879_640.jpg );
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+       }
+       .hero-shadow2{
+           position: absolute;
+           width: 100%; height: 100%;
+           background-color: rgba(0,0,0,0.5);
+           z-index: -10;
+       }
+       .hero-text2{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100%;
+           flex-direction: column;
+           z-index: 5;
+           padding: 80px 0;
+       }
+       i{
+        margin-top: 20px;
+        font-size: 40px;
+        color: #fff;
+        }
+        .aboutus-card-title{
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #ddd;
+         }
+         .aboutus-card-text{
+        font-size: 18px;
+          }
+        .item{
+            margin: 5px 0;
+        }
+       
+}
+
+.portfolio{
+
+    .carousel-item{
+        position: relative;
+        height: 600px;
+        
+        
+    }
+
+    .carousel-caption{
+        position: absolute;
+        width: 100%;
+        left: 0; right: 0;
+        background-color: rgba(0,0,0,0.7);
+        padding: 30px 0;
+    
+           
+    }
+    .carousel-indicators{
+        padding-bottom: 10px;
+        
+    }
+    .card-group{
+        color: #000;
+    }
+    
+}
+
+.blue{
+    color :rgb(156, 142, 235)
+}
+
+.prices{
+    background-color: #555;
+    
+    h3{
+        text-transform: uppercase;
+    }
+    .underline-price{
+        width: 80%; height: 1px; background-color: rgb(95, 128, 129);
+        margin: 0 auto 40px;
+    }
+    .cena{
+        color: rgb(226, 205, 205);
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+}
+
+@media(min-width: 1200px){
+    header .hero-img{
+        background-image: url(../img/van-g8c1e11fcb_1920.jpg);
+    }
+    
+}
+@media(min-width: 414px){
+    header h1{
+       font-size: 38px;
+    }
+}
+
+@media(min-width: 768px){
+    header h1{
+       font-size: 50px;
+    }
+    header p{
+        font-size: 23px;
+    }
+}
+
+@media(min-width: 992px){
+
+    html{
+        height: 88px;
+    }
+    .aboutus-hero2 .hero-img2{
+        background-image: url(../img/end-of-summer-2700879_1920.jpg);
+    }
+
+}
