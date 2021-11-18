@@ -1,0 +1,293 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 82px;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #01f7ff;
+  margin: 0 auto 40px;
+}
+
+nav {
+  z-index: 1;
+  -webkit-transition: background-color 0.6s;
+  transition: background-color 0.6s;
+}
+
+nav .nav-link {
+  color: #fff;
+  margin-right: 10px;
+  text-transform: uppercase;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+nav .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav .nav-link:hover {
+  color: #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+nav .active {
+  color: #999;
+}
+
+nav button {
+  color: #fff;
+}
+
+nav .navbar {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header {
+  color: #fff;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+header p {
+  color: #bbb;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/van-gea220328d_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 5;
+}
+
+header .fa-chevron-down {
+  position: absolute;
+  font-size: 30px;
+  bottom: 20px;
+  left: 50%;
+  color: #fff;
+  padding: 10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .fa-chevron-down:hover {
+  color: #bbb;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.aboutus-hero2 {
+  color: #ddd;
+}
+
+.aboutus-hero2 .hero-img2 {
+  position: relative;
+  background-image: url(../img/end-of-summer-2700879_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.aboutus-hero2 .hero-shadow2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -10;
+}
+
+.aboutus-hero2 .hero-text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 5;
+  padding: 80px 0;
+}
+
+.aboutus-hero2 i {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.aboutus-hero2 .aboutus-card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+.aboutus-hero2 .aboutus-card-text {
+  font-size: 18px;
+}
+
+.aboutus-hero2 .item {
+  margin: 5px 0;
+}
+
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+.portfolio .carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 0;
+}
+
+.portfolio .carousel-indicators {
+  padding-bottom: 10px;
+}
+
+.portfolio .card-group {
+  color: #000;
+}
+
+.blue {
+  color: #9c8eeb;
+}
+
+.prices {
+  background-color: #555;
+}
+
+.prices h3 {
+  text-transform: uppercase;
+}
+
+.prices .underline-price {
+  width: 80%;
+  height: 1px;
+  background-color: #5f8081;
+  margin: 0 auto 40px;
+}
+
+.prices .cena {
+  color: #e2cdcd;
+  font-size: 20px;
+}
+
+.prices a {
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media (min-width: 1200px) {
+  header .hero-img {
+    background-image: url(../img/van-g8c1e11fcb_1920.jpg);
+  }
+}
+
+@media (min-width: 414px) {
+  header h1 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header p {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    height: 88px;
+  }
+  .aboutus-hero2 .hero-img2 {
+    background-image: url(../img/end-of-summer-2700879_1920.jpg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
