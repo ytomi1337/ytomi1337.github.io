@@ -24,7 +24,9 @@ h2{
     margin: 0 auto 40px;
 
 }
-
+.fa-facebook-f{
+    color: #3b5998;
+}
 
 
 
@@ -261,6 +263,7 @@ header{
         font-size: 20px;
     }
     
+    
 
 }
 
@@ -311,9 +314,7 @@ header{
     .card-footer{
         background-color: #ededed;
     }
-    .fa-facebook-f{
-        color: #3b5998;
-    }
+    
     .fa-facebook-f:hover{
         color: #607cb8;
     }
@@ -329,6 +330,82 @@ header{
     .fa-google-plus-g:hover{
         color: #ec5b4a;
     }
+}
+
+.achivments{
+
+    .achiv-card{
+        padding-top: 20px;
+    }
+    .title{
+        font-size: 25px;
+        color: rgb(219, 186, 186);
+        text-shadow: 0 0 5px #000;
+    }
+    i{
+        font-size: 48px;
+        text-shadow: 0 0 5px #000;
+    }
+    .txt{
+        font-size: 14px;
+        padding: 15px 0;
+        text-transform: uppercase;
+        color: rgb(219, 186, 186);
+        text-shadow: 0 0 5px #000;
+    }
+
+}
+.contact{
+    
+    background-image: url(../img/skyline-g968f110a0_640.jpg);
+        position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+        z-index: 0;
+    h3{
+        text-transform: uppercase;
+        padding: 14px 0;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: rgb(219, 186, 186);
+    }
+    
+    .contact-shadow{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        z-index: -10;
+    }
+    .contact-wraper{
+        display: flex;
+        align-items: center;
+        
+    }
+    .social-media{
+        font-size: 28px;
+        a{
+            color: #ccc;
+            padding: 10px;
+          
+        }
+        i{
+            transition: transform 0.5s;
+        }
+        i:hover{
+            transform: scale(1.1);
+        }
+        .fa-google-plus-g{
+            color: #db4a39;
+        }
+        .fa-twitter{
+            color: #00acee;
+        }
+
+    }
+    
 }
 
 @media(min-width: 1200px){
@@ -350,7 +427,17 @@ header{
        .under-price-text{
            font-size: 15px;
        }
+       
    }
+   .contact{
+    .contact-item{
+        padding: 15px 0;
+    }
+    i{
+        font-size: 24px;
+    }
+}
+   
    }
 
 @media(min-width: 768px){
@@ -371,5 +458,16 @@ header{
     .aboutus-hero2 .hero-img2{
         background-image: url(../img/end-of-summer-2700879_1920.jpg);
     }
+    .contact{
+        background-image: url(../img/skyline-ga83743fb2_1920.jpg)
+    }
 
+}
+@media(max-width: 992px){
+
+    .contact{
+        .social-media{
+            padding: 15px 0;
+        }
+    }
 }

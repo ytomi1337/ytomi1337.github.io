@@ -30,6 +30,10 @@ h2 {
   margin: 0 auto 40px;
 }
 
+.fa-facebook-f {
+  color: #3b5998;
+}
+
 nav {
   z-index: 1;
   -webkit-transition: background-color 0.6s;
@@ -368,10 +372,6 @@ header .fa-chevron-down:hover {
   background-color: #ededed;
 }
 
-.team .fa-facebook-f {
-  color: #3b5998;
-}
-
 .team .fa-facebook-f:hover {
   color: #607cb8;
 }
@@ -390,6 +390,94 @@ header .fa-chevron-down:hover {
 
 .team .fa-google-plus-g:hover {
   color: #ec5b4a;
+}
+
+.achivments .achiv-card {
+  padding-top: 20px;
+}
+
+.achivments .title {
+  font-size: 25px;
+  color: #dbbaba;
+  text-shadow: 0 0 5px #000;
+}
+
+.achivments i {
+  font-size: 48px;
+  text-shadow: 0 0 5px #000;
+}
+
+.achivments .txt {
+  font-size: 14px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  color: #dbbaba;
+  text-shadow: 0 0 5px #000;
+}
+
+.contact {
+  background-image: url(../img/skyline-g968f110a0_640.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  z-index: 0;
+}
+
+.contact h3 {
+  text-transform: uppercase;
+  padding: 14px 0;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: #dbbaba;
+}
+
+.contact .contact-shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+.contact .contact-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .social-media {
+  font-size: 28px;
+}
+
+.contact .social-media a {
+  color: #ccc;
+  padding: 10px;
+}
+
+.contact .social-media i {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.contact .social-media i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contact .social-media .fa-google-plus-g {
+  color: #db4a39;
+}
+
+.contact .social-media .fa-twitter {
+  color: #00acee;
 }
 
 @media (min-width: 1200px) {
@@ -411,6 +499,12 @@ header .fa-chevron-down:hover {
   .prices .under-price-text {
     font-size: 15px;
   }
+  .contact .contact-item {
+    padding: 15px 0;
+  }
+  .contact i {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -428,6 +522,15 @@ header .fa-chevron-down:hover {
   }
   .aboutus-hero2 .hero-img2 {
     background-image: url(../img/end-of-summer-2700879_1920.jpg);
+  }
+  .contact {
+    background-image: url(../img/skyline-ga83743fb2_1920.jpg);
+  }
+}
+
+@media (max-width: 992px) {
+  .contact .social-media {
+    padding: 15px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
