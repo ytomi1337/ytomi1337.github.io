@@ -264,6 +264,73 @@ header{
 
 }
 
+
+.team{
+    
+    .hero-img-team{
+        position: relative;
+        background-image: url(../img/picnic.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .hero-shadow-team{
+        width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        z-index: -10;
+    }
+    h2{
+        padding-top:20px
+    }
+    
+    .card{
+        margin: 0 10px;
+        background-color: #777;
+        transition: transform 0.6s;
+
+        img{
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    .card:hover{
+        transform: scale(0.96);
+    }
+    .card-body{
+        height: 160px;
+    }
+    .card-title{
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    i{
+        color: rgb(23, 57, 209);
+        font-size: 20px;
+    }
+    .card-footer{
+        background-color: #ededed;
+    }
+    .fa-facebook-f{
+        color: #3b5998;
+    }
+    .fa-facebook-f:hover{
+        color: #607cb8;
+    }
+    .fa-twitter{
+        color: #00acee;
+    }
+    .fa-twitter:hover{
+        color: #009bdd;
+    }
+    .fa-google-plus-g{
+        color: #db4a39;
+    }
+    .fa-google-plus-g:hover{
+        color: #ec5b4a;
+    }
+}
+
 @media(min-width: 1200px){
     header .hero-img{
         background-image: url(../img/van-g8c1e11fcb_1920.jpg);
