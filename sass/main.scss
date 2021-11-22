@@ -1,3 +1,5 @@
+@import 'animate';
+
 *,*::before,*::after{
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +19,10 @@ body{
 h2{
     text-transform: uppercase;
     text-align: center;
+}
+.bounce-top{
+    margin: 0;
+    padding: 0;
 }
 
 .underline{
